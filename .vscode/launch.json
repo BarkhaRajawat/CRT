@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Barkha/OneDrive/Desktop/CRT",
-      "program": "c:/Users/Barkha/OneDrive/Desktop/CRT/build/Debug/outDebug",
+      "cwd": "c:/Users/Barkha/OneDrive/Desktop/CRT phase 1/Day-4",
+      "program": "c:/Users/Barkha/OneDrive/Desktop/CRT phase 1/Day-4/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

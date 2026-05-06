@@ -7,7 +7,7 @@ int main(){
     int rev=0;
     while(n>0)
     {
-        int rem = n%10; //find the ast digit
+        int rem = n%10; //find the last digit
         rev=rev*10+rem; //calculate the reverse of that number
         n=n/10; //remove the last digit
     }

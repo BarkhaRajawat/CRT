@@ -1,3 +1,4 @@
+ques: code for encapsulationa nd abstraction
 #include<iostream>
 using namespace std;
 

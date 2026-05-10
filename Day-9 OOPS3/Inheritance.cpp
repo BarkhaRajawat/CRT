@@ -135,38 +135,50 @@
      //properties
      protected:
      string name;      //private, parent will not give to child, but can use PROTECTED instead to use the properties of parent clas 
-     int age;
+     
  };
 
 
- class Student1 : public Human{
-    protected:
-    int age;
+ class Student : public Human{
+    int fees ;
+
+    public:
+    Student(string n, int f)
+    {
+        name = n ;
+        fees = f;
+    }
+
+    void display()
+    {
+        cout<<name<<" "<<fees<<endl;
+    }
  };
 
 
- class Student2 : public Human
+ class Teacher : public Human
  { 
-     int roll_no;
+     int salary;
 
      public:
-     Student2(string  n , int a, int r)
+     Teacher(string  n , int s)
      {  
          name = n;
-         roll_no = r;
-         age = a;
+         salary =s;
         
      }
 
  void display()  //bara baar print n krwana pde isliye void display() banaya h 
  {
-     cout<<name<<" "<<age<<" "<<roll_no<<endl;
+     cout<<name<<" "<<salary<<endl;
  }
  };
 
  int main(){
-     Student2 obj("Barkha", 21, 2119);
+     Teacher obj("Barkha", 50000);
+     Student obj2("Ram", 30000);
      obj.display();
+     obj2.display();
  }
 
 
